@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .swiper-pagination-bullets {
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <main class="main-container">
+        <div class="sidemenu">
+            <div class="opacity"></div>
+            <div class="sidemenu-content">
+                <div class="logo">
+                    <a href="#">
+                        <img src="Assets/secondary_logo.svg" alt="">
+                    </a>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <ul class="nav-item">
+                    <li><a href="">Home</a></li>
+                    <li><a href="#HowToMint">Mint</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#collection">Collection</a></li>
+                    <li><a href="#roadmap">roadmap</a></li>
+                    <li><a href="" style="border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+                        ">blog</a></li>
+                </ul>
+                <div class="social-media">
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""> <i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""> <i class="fa-brands fa-instagram"></i></a></li>
+                    <li> <a href=""> <i class="fa-brands fa-discord"></i></a></li>
+                    <li><a href=""> <i class="fa-brands fa-telegram"></i></a></li>
+                </div>
+
+            </div>
+        </div>
+        <div class="banner-background-wrap">
+            <div class="img"></div>
+        </div>
+        <header class="container">
+            <div class="wrapper">
+                <div class="logo"><a href="#"><img src="Assets/secondary_logo.svg" alt=""></a></div>
+
+                <ul class="nav-item">
+                    <li><a href="">Home</a></li>
+                    <li><a href="#HowToMint">Mint</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#collection">Collection</a></li>
+                    <li><a href="#roadmap">roadmap</a></li>
+                    <li><a href="">blog</a></li>
+                </ul>
+                <li class="bar-icon"><i class="fa-solid fa-bars"></i></li>
+
+            </div>
+        </header>
+
+        <section class="home">
+            <div class="home-banner">
+                <img src="Assets/ethereum-01.png" style="width: 40px;top: 20%;" alt="">
+                <img src="Assets/bitcoin-01.png" style="width: 40px;top:45% ;left:10%;" alt="">
+                <img src="Assets/x.png" style="width: 20px;top: 55%;right: 20%;" alt="">
+                <div class="banner-content">
+                    <h2>Buy & Sell Nerko's Collection</h2>
+                    <p>Invest and manage all your NFTs at one place</p>
+                    <a href="#collection"><span>Browse Collection</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="home card-home">
+            <div class="card-wrapper" id="HowToMint">
+                <div class="heading">
+                    <h2>How TO Mint</h2>
+                </div>
+                <div class="card">
+                    <div class="card-block">
+                        <div class="img-div">
+                            <img src="Assets/card1.png" alt="">
+                        </div>
+                        <div class="content-div">
+                            <h2>Connect your wallet</h2>
+                            <p>Use Trust Wallet, Metamask or any wallet to connect to the app.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-block">
+                        <div class="img-div">
+                            <img src="Assets/card2.png" alt="">
+                        </div>
+                        <div class="content-div">
+                            <h2>Select your quantity</h2>
+                            <p>Use Trust Wallet, Metamask or any wallet to connect to the app.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-block">
+                        <div class="img-div">
+                            <img src="Assets/card3.png" alt="">
+                        </div>
+                        <div class="content-div">
+                            <h2>Confirm transaction</h2>
+                            <p>Earn ETH and BIT for all your NFTs that you sell on our marketplace.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-block">
+                        <div class="img-div">
+                            <img src="Assets/card3.png" alt="">
+                        </div>
+                        <div class="content-div">
+                            <h2> Receive your NFTs</h2>
+                            <p>Earn ETH and BIT for all your NFTs that you sell on our marketplace.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="home card-home">
+
+            <div class="number-container">
+
+                <div class="numbercard">
+                    <div class="number-card-block">
+                        <h2>400k+</h2>
+                        <p>Wallets Connected
+                        </p>
+                    </div>
+                    <div class="number-card-block">
+                        <h2>20k+</h2>
+                        <p>Wallets Connected</p>
+                    </div>
+                    <div class="number-card-block">
+                        <h2>230+</h2>
+                        <p>Creative artists</p>
+                    </div>
+                    <div class="number-card-block">
+                        <h2>2.5x</h2>
+                        <p>Estimated value </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="home card-home">
+            <div class="card-wrapper" id="about">
+                <div class="heading">
+                    <h2>About the platform</h2>
+                </div>
+                <div class="platform-main-div">
+                    <div class="img-div">
+                        <img src="Assets/features-03.png" alt="">
+                    </div>
+                    <div class="platform-content-div">
+                        <div class="content-div-1">
+                            <div class="content-info">
+                                <span>CREATE AND INVEST</span>
+                                <h2>Create your own NFT</h2>
+                            </div>
+                            <p>Multiple Chains, One Home. Stack up all your NFTs from across blockchains.</p>
+                        </div>
+                        <div class="content-div-2">
+                            <div class="content-div-2-1">
+                                <h2>4,500+</h2>
+                                <p>Collections Indexed
+
+                                    every 5mins.
+                                </p>
+                            </div>
+                            <div class="content-div-2-1">
+                                <h2>2.5x</h2>
+                                <p>Difference in Floor & Estimated NFT Value.</p>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="platform-main-div reverse">
+                    <div class="img-div">
+                        <img src="Assets/features-02.png" alt="" width="100%">
+                    </div>
+                    <div class="platform-content-div">
+                        <div class="content-div-1">
+                            <div class="content-info">
+                                <span>SYNC AND TRACK</span>
+                                <h2>Multiple Chains, One Home</h2>
+                            </div>
+                            <p>We make it easy to Discover, Invest and manage all your NFTs at one place.</p>
+                        </div>
+                        <div class="content-div-2">
+                            <div class="content-div-2-1">
+                                <h2>4,500+</h2>
+                                <p>Collections Indexed
+                                    <br>
+                                    every 5mins.
+                                </p>
+                            </div>
+                            <div class="content-div-2-1">
+                                <h2>2.5x</h2>
+                                <p>Difference in Floor & Estimated NFT Value.</p>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="home card-home">
+            <div class="collection-material" id="collection">
+                <div class="heading">
+                    <h2>Latest Artworks</h2>
+                </div>
+
+                <div class="collection-material-content">
+                    <div class="collection-material-card">
+                        <div class=" container">
+                            <img src="Assets/art_01.jpg" alt="">
+
+                        </div>
+                        <div class="card">
+                            <h2 style="text-align: center;">#Metaverse</h2>
+                            <h5 style="text-align: center;">By TheSalvare </h5>
+
+                        </div>
+
+                    </div>
+
+                    <div class="collection-material-card">
+                        <div class="container">
+                            <img src="Assets/art_02.jpg" alt="">
+
+                        </div>
+                        <div class="card">
+                            <h2 style="text-align: center;">#Polly Doll</h2>
+                            <h5 style="text-align: center;">By TheNative </h5>
+
+                        </div>
+
+                    </div>
+
+                    <div class="collection-material-card">
+                        <div class="container">
+                            <img src="Assets/art_03.jpg" alt="">
+
+                        </div>
+                        <div class="card">
+                            <h2 style="text-align: center;">#Alec Art</h2>
+                            <h5 style="text-align: center;">By GeorgZvic</h5>
+
+                        </div>
+
+                    </div>
+
+                    <div class="collection-material-card">
+                        <div class="container">
+                            <img src="Assets/art_04.jpg" alt="">
+
+                        </div>
+                        <div class="card">
+                            <h2 style="text-align: center;">#Toxic Poeth</h2>
+                            <h5 style="text-align: center;">By YazoiLup </h5>
+
+                        </div>
+
+                    </div>
+
+                    <div class="collection-material-card">
+                        <div class="container">
+                            <img src="Assets/art_05.jpg" alt="">
+                        </div>
+                        <div class="card">
+                            <h2 style="text-align: center;">#Saphyre</h2>
+                            <h5 style="text-align: center;">By CryptoX</h5>
+
+                        </div>
+
+                    </div>
+
+                    <div class="collection-material-card">
+                        <div class="container">
+                            <img src="Assets/art_06.jpg" alt="">
+                        </div>
+                        <div class="card">
+                            <h2 style="text-align: center;">#Charcuterie</h2>
+                            <h5 style="text-align: center;">By Texira</h5>
+
+                        </div>
+
+                    </div>
+
+                    <div class="collection-material-card">
+                        <div class="container">
+                            <img src="Assets/art_07.jpg" alt="">
+
+                        </div>
+                        <div class="card">
+                            <h2 style="text-align: center;">#Paradise</h2>
+                            <h5 style="text-align: center;">By CryptoX</h5>
+
+                        </div>
+
+                    </div>
+
+                    <div class="collection-material-card">
+                        <div class="container">
+                            <img src="Assets/art_08.jpg" alt="">
+
+                        </div>
+                        <div class="card">
+                            <h2 style="text-align: center;">#HighTown</h2>
+                            <h5 style="text-align: center;">By TheSalvare</h5>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section style="background-color: #110527;min-height: 100vh;">
+            <div class="roadmap-heading" id="roadmap">
+                <h2>Roadmap</h2>
+            </div>
+            <div>
+                <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="1"
+                    space-between="30" centered-slides="true">
+                    <swiper-slide style="background-color: #110527">
+                        <div class="slider-main-nft">
+                            <div class="slider-nft">
+                                <div class="nft-percent">
+                                    <span class="nft-percent-no">0</span>
+                                    <span class="nft-percent-symbol">%</span>
+                                </div>
+                                <div class="content-info">
+                                    <span>Phase 01</span>
+                                </div>
+                                <div class="nft-heading">
+                                    <h2>Planning</h2>
+                                </div>
+                                <div class="nft-content">
+                                    <p>Quality comes first. We took our time to plan out everything and build our
+                                        production pipeline for a good quality artworks.</p>
+                                </div>
+                                <div class="nft-options">
+                                    <h2><span style="color: blueviolet;">✓</span> Release Website and logo</h2>
+                                    <h2><span style="color: blueviolet;">✓</span> Grow Community</h2>
+                                    <h2><span style="color: blueviolet;">✓</span> Launch THe Project</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                    </swiper-slide>
+
+                    <swiper-slide style="background-color: #110527">
+                        <div class="slider-main-nft">
+                            <div class="slider-nft">
+                                <div class="nft-percent">
+                                    <span class="nft-percent-no">25</span>
+                                    <span class="nft-percent-symbol">%</span>
+                                </div>
+                                <div class="content-info">
+                                    <span>Phase 02</span>
+                                </div>
+                                <div class="nft-heading">
+                                    <h2>Production</h2>
+                                </div>
+                                <div class="nft-content">
+                                    <p>Quality comes first. We took our time to plan out everything and build our
+                                        production pipeline for a good quality artworks.</p>
+                                </div>
+                                <div class="nft-options">
+                                    <h2><span style="color: blueviolet;">✓</span> Release Website and logo</h2>
+                                    <h2><span style="color: blueviolet;">✓</span> Grow Community</h2>
+                                    <h2><span style="color: blueviolet;">✓</span> Launch THe Project</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                    </swiper-slide>
+
+                    <swiper-slide style="background-color: #110527">
+                        <div class="slider-main-nft">
+                            <div class="slider-nft">
+                                <div class="nft-percent">
+                                    <span class="nft-percent-no">50</span>
+                                    <span class="nft-percent-symbol">%</span>
+                                </div>
+                                <div class="content-info">
+                                    <span>Phase 03</span>
+                                </div>
+                                <div class="nft-heading">
+                                    <h2>Launch</h2>
+                                </div>
+                                <div class="nft-content">
+                                    <p>Quality comes first. We took our time to plan out everything and build our
+                                        production pipeline for a good quality artworks.</p>
+                                </div>
+                                <div class="nft-options">
+                                    <h2><span style="color: blueviolet;">✓</span> Release Website and logo</h2>
+                                    <h2><span style="color: blueviolet;">✓</span> Grow Community</h2>
+                                    <h2><span style="color: blueviolet;">✓</span> Launch THe Project</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                    </swiper-slide>
+
+                    <swiper-slide style="background-color: #110527">
+                        <div class="slider-main-nft">
+                            <div class="slider-nft">
+                                <div class="nft-percent">
+                                    <span class="nft-percent-no">75</span>
+                                    <span class="nft-percent-symbol">%</span>
+                                </div>
+                                <div class="content-info">
+                                    <span>Phase 04</span>
+                                </div>
+                                <div class="nft-heading">
+                                    <h2>Minting</h2>
+                                </div>
+                                <div class="nft-content">
+                                    <p>Quality comes first. We took our time to plan out everything and build our
+                                        production pipeline for a good quality artworks.</p>
+                                </div>
+                                <div class="nft-options">
+                                    <h2><span style="color: blueviolet;">✓</span> Release Website and logo</h2>
+                                    <h2><span style="color: blueviolet;">✓</span> Grow Community</h2>
+                                    <h2><span style="color: blueviolet;">✓</span> Launch THe Project</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                    </swiper-slide>
+
+                    <swiper-slide style="background-color: #110527">
+                        <div class="slider-main-nft">
+                            <div class="slider-nft">
+                                <div class="nft-percent">
+                                    <span class="nft-percent-no">100</span>
+                                    <span class="nft-percent-symbol">%</span>
+                                </div>
+                                <div class="content-info">
+                                    <span>Phase 05</span>
+                                </div>
+                                <div class="nft-heading">
+                                    <h2>New NFT's</h2>
+                                </div>
+                                <div class="nft-content">
+                                    <p>Quality comes first. We took our time to plan out everything and build our
+                                        production pipeline for a good quality artworks.</p>
+                                </div>
+                                <div class="nft-options">
+                                    <h2><span style="color: blueviolet;">✓</span> Release Website and logo</h2>
+                                    <h2><span style="color: blueviolet;">✓</span> Grow Community</h2>
+                                    <h2><span style="color: blueviolet;">✓</span> Launch THe Project</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                    </swiper-slide>
+
+
+
+                </swiper-container>
+
+            </div>
+
+        </section>
+
+        <section class="home card-home">
+            <div class="footer">
+                <img src="Assets/ethereum-01.png" style="width: 40px; left: 10%;top:25%;position: absolute;" alt="">
+                <img src="Assets/x.png" style="width: 20px; right: 20%;position: absolute;" alt="">
+                <img src="Assets/dot.png" style="width: 20px; right: 20%;top:70%;position: absolute;" alt="">
+                <div class="footer-top">
+                    <div class="footer-img"><img src="Assets/nerko.svg" alt=""></div>
+                    <div class="footer-heading">
+                        <h2>We make it easy to Discover, Invest and manage all your NFTs at one place.</h2>
+                    </div>
+                    <div class="footer-social-media">
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-instagram"></i></a></li>
+                        <li> <a href=""> <i class="fa-brands fa-discord"></i></a></li>
+                        <li><a href=""> <i class="fa-brands fa-telegram"></i></a></li>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="copyright">
+                        <div class="footer-rights">
+                            <h2>© 2023 Nerko. All rights reserved.</h2>
+                        </div>
+                        <div class="footer-policies">
+                            <li>Terms of use</li>
+                            <li>Privacy policy</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+
+</body>
+
+</html>
